@@ -11,3 +11,5 @@ Then run this command in this directory to build and run the app:
 ```shell
 docker compose up
 ```
+
+Open your browser and go to [http://localhost](http://localhost)
