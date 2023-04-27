@@ -1,9 +1,9 @@
-require('dotenv').config();
-const express = require('express');
+import express from 'express';
+
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Basic NodeJS Express App');
+  res.send('Docker NodeJS App');
 });
 
 app.listen(process.env.PORT, () => {
