@@ -1,7 +1,7 @@
 {
     "name": "basic-nodejs-express",
     "version": "1.0.0",
-    "description": "My first Express app in Docker",
+    "description": "",
     "main": "index.js",
     "dependencies": {
         "dotenv": "^16.0.3",
