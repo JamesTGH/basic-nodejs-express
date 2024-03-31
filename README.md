@@ -1,15 +1,21 @@
 # Docker NodeJS App
 
-This is a Docker container that has a NodeJS application running on NGINX.
+This Docker container hosts a NodeJS application powered by NGINX.
 
-## Getting started
+## Getting Started
 
-Download [Docker Desktop](https://www.docker.com/products/docker-desktop) for Mac or Windows and [Docker Compose](https://docs.docker.com/compose) will be automatically installed.
+1. **Download Docker Desktop**: Install [Docker Desktop](https://www.docker.com/products/docker-desktop) for Mac or Windows. Docker Compose will be automatically installed along with Docker Desktop.
 
-Then run this command in this directory to build and run the app:
+2. **Build and Run the App**: Navigate to the directory containing the Docker configuration file and execute the following command:
 
-```shell
-docker compose up -d
-```
+    ```shell
+    docker compose up -d
+    ```
 
-Open your browser and go to [http://localhost](http://localhost)
+3. **Access the App**: Open your web browser and navigate to [http://localhost](http://localhost) to access the running application.
+
+4. **Stop and Remove the App**: To halt and remove the application, execute the following command:
+
+    ```shell
+    docker compose down -v --rmi all
+    ```
